@@ -11,6 +11,11 @@
 		957ACAF9271750E0007E1FEF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957ACAF8271750E0007E1FEF /* ContentView.swift */; };
 		957ACAFB271750E1007E1FEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 957ACAFA271750E1007E1FEF /* Assets.xcassets */; };
 		957ACAFE271750E1007E1FEF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 957ACAFD271750E1007E1FEF /* Preview Assets.xcassets */; };
+		957ACB0527175294007E1FEF /* ControlPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957ACB0427175294007E1FEF /* ControlPanelView.swift */; };
+		957ACB0727175301007E1FEF /* ParentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957ACB0627175301007E1FEF /* ParentView.swift */; };
+		957ACB092717558C007E1FEF /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957ACB082717558C007E1FEF /* AccountView.swift */; };
+		957ACB0B27175597007E1FEF /* BalanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957ACB0A27175597007E1FEF /* BalanceView.swift */; };
+		957ACB0D271755AB007E1FEF /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957ACB0C271755AB007E1FEF /* Profile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		957ACAF8271750E0007E1FEF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		957ACAFA271750E1007E1FEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		957ACAFD271750E1007E1FEF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		957ACB0427175294007E1FEF /* ControlPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlPanelView.swift; sourceTree = "<group>"; };
+		957ACB0627175301007E1FEF /* ParentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentView.swift; sourceTree = "<group>"; };
+		957ACB082717558C007E1FEF /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		957ACB0A27175597007E1FEF /* BalanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceView.swift; sourceTree = "<group>"; };
+		957ACB0C271755AB007E1FEF /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +65,11 @@
 				957ACAF8271750E0007E1FEF /* ContentView.swift */,
 				957ACAFA271750E1007E1FEF /* Assets.xcassets */,
 				957ACAFC271750E1007E1FEF /* Preview Content */,
+				957ACB0427175294007E1FEF /* ControlPanelView.swift */,
+				957ACB0627175301007E1FEF /* ParentView.swift */,
+				957ACB082717558C007E1FEF /* AccountView.swift */,
+				957ACB0A27175597007E1FEF /* BalanceView.swift */,
+				957ACB0C271755AB007E1FEF /* Profile.swift */,
 			);
 			path = DataFlowInSwiftUIApp;
 			sourceTree = "<group>";
@@ -137,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				957ACB0727175301007E1FEF /* ParentView.swift in Sources */,
+				957ACB0527175294007E1FEF /* ControlPanelView.swift in Sources */,
 				957ACAF9271750E0007E1FEF /* ContentView.swift in Sources */,
+				957ACB0D271755AB007E1FEF /* Profile.swift in Sources */,
+				957ACB0B27175597007E1FEF /* BalanceView.swift in Sources */,
 				957ACAF7271750E0007E1FEF /* DataFlowInSwiftUIAppApp.swift in Sources */,
+				957ACB092717558C007E1FEF /* AccountView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
